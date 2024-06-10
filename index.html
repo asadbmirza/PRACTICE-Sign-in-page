@@ -7,7 +7,7 @@
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="left-container">
@@ -31,32 +31,35 @@
                         <ul>
                             <li>
                                 <label for="first">FIRST NAME</label>
-                                <input type="text" id="first" name="first">
+                                <input type="text" id="first" name="first" required>
                             </li>
                             <li>
                                 <label for="last">LAST NAME</label>
-                                <input type="text" id="last" name="last">
+                                <input type="text" id="last" name="last" required>
                             </li>
                             <li>
                                 <label for="mail">EMAIL</label>
-                                <input type="email" id="mail" name="mail">
+                                <input type="email" id="mail" name="mail" required>
                             </li>
                             <li>
                                 <label for="phone">PHONE NUMBER</label>
-                                <input type="text" id="phone" name="phone">
+                                <input type="text" id="phone" name="phone" required>
                             </li>
                             <li>
                                 <label for="pass">PASSWORD</label>
-                                <input type="password" id="pass" name="pass">
+                                <input type="password" id="pass" name="pass" required>
+                                <span></span>
                             </li>
                             <li>
                                 <label for="confirm">CONFIRM PASSWORD</label>
-                                <input type="password" id="confirm" name="confirm">
+                                <input type="password" id="confirm" name="confirm" required>
                             </li>
                         </ul>
                     </div>
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account? <a href="https://github.com/asadbmirza">Log In!</a></p>
+                    <div class="buttons">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="https://github.com/asadbmirza">Log In!</a></p>
+                    </div>
                 </form>
             </div>
             <div class="to-center"></div>
